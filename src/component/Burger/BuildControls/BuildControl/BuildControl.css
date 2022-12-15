@@ -1,0 +1,30 @@
+.BuildControl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.BuildControl button{
+    display: block;
+    width: 80px;
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid #AA6817;
+    outline: none;
+    margin-left: 1rem;
+   /* flex-basis: content;*/
+}
+
+.Label{
+    padding: 10px;
+  
+    color: white;
+}
+.BuildControl .Less{
+   background-color: #AA6817;
+    color: white;
+}
+.BuildControl .More{
+    background-color: #AA6817;
+     color: white;
+ }

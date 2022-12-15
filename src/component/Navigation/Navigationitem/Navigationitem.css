@@ -1,0 +1,21 @@
+.Navigationitem{
+    margin :0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.Navigationitem a{
+    color: white;
+    text-decoration: none;
+    padding : 16px 18px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+}
+
+.Navigationitem a:hover{
+    color: white;
+    border-bottom: 4px solid green;
+    background-color:rgb(64, 54, 155);
+}
